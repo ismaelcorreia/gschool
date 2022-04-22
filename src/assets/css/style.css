@@ -1,0 +1,365 @@
+/* LIGHT MDOE */
+
+*{
+    primary: #EF3636;
+    danger: #F13B29;
+    alert: #FFEB00;
+    secondary: #222;
+    dark: #131E26;
+    light-gray: #EFEFEF;
+    shadow: dropshadow(gaussian, rgba(100, 100, 100, 0.3), 10, 0.5, 0.3, 0.3);
+    innershadow:innershadow(gaussian, #555, 10, 0, 0,2 );
+    dark-gray: #444;
+    -fx-text-fill: secondary;
+}
+
+/*SCREEN BUTTONS*/
+.button-screen {
+    -fx-background-radius: 100%;
+    -fx-min-width: 15px;
+    -fx-max-width: 15px;
+    -fx-preferred-width: 15px;
+    -fx-min-height: 15px;
+    -fx-max-height: 15px;
+    -fx-preferred-height: 15px;
+}
+.button-screen.close {
+    -fx-background-color: danger;
+}
+.button-screen.reduced {
+    -fx-background-color: alert;
+}
+.button-screen.hiden {
+    -fx-background-color: secondary;
+}
+
+/* USER BUTTON*/
+.user-button{
+    -fx-background-radius: 20px;
+    -fx-border-width: 2px;
+    -fx-padding: 3px;
+    -fx-background-color: white;
+}
+
+/* SEARCH BOX*/
+
+.search-box{
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+    -fx-preferred-height: 40px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}
+.search-box, .search-box>.text-field  {
+    -fx-background-color: white;
+}
+
+/* MENU*/
+
+.menu-button{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+.menu-button:hover{
+    -fx-background-color: derive(primary,90%);
+}
+.menu-button SVGPath{
+    -fx-fill: dark-gray;
+}
+.menu-button:hover SVGPath{
+    -fx-fill: primary;
+}
+
+.menu-button-active{
+    -fx-background-color: primary;
+}
+
+.menu-button-active  SVGPath{
+    -fx-fill: white;
+}
+
+/* BG */
+.bg {
+
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+
+}
+/* CENTRAL MAIN*/
+.bg-home{
+    -fx-background-image: url("../images/banner1.jpg");
+}
+
+.bg-central-main-info{
+-fx-background-color: linear-gradient(to right,white, transparent);
+}
+.bg-card-mask-top{
+-fx-background-color: linear-gradient(to bottom,white, transparent);
+}
+.bg-card-mask-bottom{
+-fx-background-color: linear-gradient(to top,white, transparent);
+}
+
+/* LOGIN */
+
+/*.bg-central-login{*/
+/*    -fx-background-image: url("../images/bg1.png");*/
+/*}*/
+.bg-color-central-login{
+    -fx-background-color: dark;
+}
+.bg-central-login-mask{
+-fx-background-color: linear-gradient(to right,secondary, transparent);
+}
+
+.login-text{
+-fx-background-color: transparent;
+-fx-text-fill: white;
+}
+.login-text-content SVGPath{
+    -fx-fill: white;
+}
+.login-btn{
+    -fx-background-color: secondary;
+    -fx-background-radius: 50%;
+}
+.signup-btn {
+    -fx-background-color: secondary;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+}
+.btn-close {
+    -fx-background-color: primary;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+}
+.login-btn SVGPath{
+    -fx-fill: white;
+}
+.login-text-content{
+        -fx-background-color: secondary;
+        -fx-text-fill: white;
+        -fx-border-width: 2;
+        -fx-border-color: primary;
+        -fx-border-radius: 10;
+        -fx-background-radius: 10;
+        -fx-padding: 7;
+}
+/* TYPOGRAPGY */
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight:bold;
+    -fx-text-fill: primary;
+}
+
+.sub-title {
+    -fx-font-size: 24px;
+    -fx-text-fill: secondary;
+}
+
+.input-container {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+}
+
+
+.bg-container-colored{
+    -fx-background-color: light-gray;
+}
+/* CARDS */
+
+.rounded-card {
+    -fx-background-color: light-gray;
+    -fx-background-radius: 7px;
+}
+.user-card {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+    -fx-effect: shadow;
+}
+.card-product {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.card-product:hover {
+    -fx-background-color: white;
+}
+
+/* DEFAULT COMPONENTS*/
+.btn-filled {
+    -fx-background-color: light-gray;
+}
+.actionButton{
+    -fx-padding: 14px;
+    -fx-background-radius: 0;
+    -fx-min-width: 40px;
+    -fx-max-width: 40px;
+    -fx-pref-width: 40px;
+}
+.actionButton:hover{
+    -fx-background-color:  #222;
+}
+.actionButton.close:hover{
+    -fx-background-color: #EF3636;
+}
+.actionButton:hover SVGPath{
+      -fx-fill: light-gray;
+}
+.actionButton SVGPath {
+    -fx-fill: #222;
+}
+.shadow{
+    -fx-effect: shadow;
+}
+.toast {
+    -fx-background-color: dark;
+    -fx-effect: shadow;
+    -fx-background-radius: 15px;
+    -fx-padding: 10 10 10 10;
+}
+.toast>.label{
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+.toast SVGPath{
+    -fx-fill: white;
+}
+.messageBox{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: shadow;
+    -fx-padding: 20 40 20 40;
+}
+.messageBox .button{
+    -fx-text-fill: white;
+
+}
+.messageBox>.title{
+    -fx-font-weight: bold;
+    -fx-text-fill: primary;
+    -fx-font-size: 24px;
+}
+
+.messageBox>.danger {
+    -fx-fill: danger;
+    -fx-text-fill: danger;
+}
+.messageBox>.primary {
+    -fx-fill: primary;
+    -fx-text-fill: primary;
+}
+.messageBox>.info {
+    -fx-fill: info;
+    -fx-text-fill: info;
+}
+.messageBox>.sucess {
+    -fx-fill: sucess;
+    -fx-text-fill: sucess;
+}
+.stbb{
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*Tab pane*/
+.jfx-tab-pane .headers-region {
+    -fx-background-color: transparent;
+}
+
+/*Tab pane*/
+.invisible-tab-pane {
+    -fx-tab-max-height: 0 ;
+}
+
+.invisible-tab-pane .tab-header-area {
+    visibility: hidden ;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color:primary;
+}
+
+.tab {
+    -fx-background-color:light-gray;
+    -fx-text-fill: #222;
+    -fx-cursor: hand;
+}
+
+.tab SVGPath {
+    -fx-fill: #222;
+}
+
+
+.tab:hover{
+    -fx-background-color:  derive(secondary, 90%);
+}
+
+.tab:selected{
+    -fx-background-color: primary;
+}
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+.tab:selected SVGPath {
+    -fx-fill: white;
+}
+.tab-header-background {
+    -fx-background-color:light-gray;
+}
+
+
+
+.scroll-pane{
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+}
+.scroll-pane .scroll-bar:vertical  .scroll-bar:horizontal{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical  .scroll-bar:horizontal .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 40em;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 0 0;
+    -fx-border-color: transparent;
+}
+.scroll-pane  .thumb {
+    -fx-background-color: #ddd;
+}
+
+
+.scroll-pane .scroll-bar:vertical  .scroll-bar:horizontal .thumb {
+    -fx-background-color: transparent;
+    -fx-background-insets: 1, 1, 2;
+    -fx-background-radius: 90px;
+    -fx-border-width: 0em;
+
+}
+
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 0 0;
+    -fx-border-color: transparent;
+}
+

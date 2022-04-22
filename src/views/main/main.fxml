@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="863.0" stylesheets="@../../assets/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="207.0" layoutY="132.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="476.0" prefWidth="80.0" styleClass="card" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </BorderPane.margin>
+               <children>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                     <content>
+                        <VBox alignment="CENTER" fillWidth="false" prefHeight="428.0" prefWidth="57.0" spacing="10.0">
+                           <children>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 3 3 C 1.894531 3 1 3.894531 1 5 L 1 17 C 1 18.105469 1.894531 19 3 19 L 8 19 L 8 21 L 13.378906 21 C 13.148438 20.597656 12.984375 20.144531 12.902344 19.660156 L 12.457031 17 L 3 17 L 3 5 L 21 5 L 21 7.101563 C 21.347656 7.035156 21.683594 7 22 7 L 23 7 L 23 5 C 23 3.894531 22.105469 3 21 3 Z M 16 6 C 16 6 16.578125 7.167969 16.855469 10.363281 C 15.671875 9.007813 14 9 14 9 C 14 9 15.558594 10.566406 15.921875 13 L 13.820313 13 L 14.875 19.328125 C 15.035156 20.285156 15.878906 21 16.847656 21 L 19.152344 21 C 20.121094 21 20.964844 20.285156 21.125 19.328125 L 22.179688 13 L 20.078125 13 C 20.441406 10.566406 22 9 22 9 C 22 9 20.507813 9.007813 19.34375 10.148438 C 18.210938 7.109375 16 6 16 6 Z M 16.179688 15 L 19.820313 15 L 19.152344 19 L 16.847656 19 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 12 3 C 9.789063 3 8 4.789063 8 7 C 8 9.210938 9.789063 11 12 11 C 14.210938 11 16 9.210938 16 7 C 16 4.789063 14.210938 3 12 3 Z M 12 5 C 13.105469 5 14 5.894531 14 7 C 14 8.105469 13.105469 9 12 9 C 10.894531 9 10 8.105469 10 7 C 10 5.894531 10.894531 5 12 5 Z M 12 14 C 8.859375 14 3 15.546875 3 18.5 L 3 21 L 21 21 L 21 18.5 C 21 15.546875 15.140625 14 12 14 Z M 12 16 C 12.199219 16 12.398438 16.023438 12.597656 16.035156 L 14 18.472656 L 15.125 16.429688 C 17.265625 16.972656 19 17.90625 19 18.5 L 19 19 L 5 19 L 5 18.5 C 5 17.90625 6.734375 16.972656 8.875 16.429688 L 10 18.472656 L 11.402344 16.035156 C 11.601563 16.023438 11.800781 16 12 16 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 3 3 C 2.449219 3 2 3.449219 2 4 L 2 14 C 2 14.550781 2.449219 15 3 15 L 21 15 C 21.550781 15 22 14.550781 22 14 L 22 4 C 22 3.449219 21.550781 3 21 3 Z M 4.914063 5 L 19.089844 5 C 19.238281 5.425781 19.574219 5.761719 20 5.914063 L 20 12.089844 C 19.574219 12.238281 19.238281 12.574219 19.089844 13 L 4.914063 13 C 4.761719 12.574219 4.425781 12.238281 4 12.089844 L 4 5.914063 C 4.425781 5.761719 4.761719 5.425781 4.914063 5 Z M 12 6 C 10.34375 6 9 7.34375 9 9 C 9 10.65625 10.34375 12 12 12 C 13.65625 12 15 10.65625 15 9 C 15 7.34375 13.65625 6 12 6 Z M 7 8 C 6.449219 8 6 8.445313 6 9 C 6 9.554688 6.449219 10 7 10 C 7.550781 10 8 9.554688 8 9 C 8 8.445313 7.550781 8 7 8 Z M 17 8 C 16.449219 8 16 8.445313 16 9 C 16 9.554688 16.449219 10 17 10 C 17.550781 10 18 9.554688 18 9 C 18 8.445313 17.550781 8 17 8 Z M 2 16 L 2 18 L 22 18 L 22 16 Z M 2 19 L 2 21 L 22 21 L 22 19 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 5 3 C 3.894531 3 3 3.894531 3 5 L 3 19 C 3 20.105469 3.894531 21 5 21 L 10.589844 21 C 10.332031 20.367188 10.15625 19.699219 10.066406 19 L 5 19 L 5 9 L 19 9 L 19 10.066406 C 19.699219 10.15625 20.367188 10.332031 21 10.589844 L 21 5 C 21 3.894531 20.105469 3 19 3 Z M 5 5 L 19 5 L 19 7 L 5 7 Z M 7 11 L 7 13 L 9 13 L 9 11 Z M 11 11 L 11 13 L 11.761719 13 C 12.410156 12.1875 13.214844 11.507813 14.128906 11 Z M 18 12 C 14.699219 12 12 14.699219 12 18 C 12 21.300781 14.699219 24 18 24 C 21.300781 24 24 21.300781 24 18 C 24 14.699219 21.300781 12 18 12 Z M 18 14 C 20.199219 14 22 15.800781 22 18 C 22 20.199219 20.199219 22 18 22 C 15.800781 22 14 20.199219 14 18 C 14 15.800781 15.800781 14 18 14 Z M 7 15 L 7 17 L 9 17 L 9 15 Z M 18.425781 15.117188 L 16.828125 18.140625 L 18.925781 20.234375 L 19.984375 19.175781 L 18.671875 17.859375 L 19.753906 15.816406 Z " />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 13.003906 1 L 13.003906 11.582031 L 20.484375 4.101563 L 19.777344 3.390625 C 18.300781 1.914063 16.253906 1 14.003906 1 Z M 11.003906 2.050781 C 5.957031 2.554688 2 6.820313 2 12 C 2 17.515625 6.484375 22 12 22 C 17.515625 22 22 17.515625 22 12 C 22 10.117188 21.46875 8.359375 20.558594 6.851563 L 19.09375 8.320313 C 19.671875 9.421875 20 10.671875 20 12 C 20 13.84375 19.363281 15.542969 18.3125 16.894531 L 14.414063 13 L 13 14.414063 L 16.894531 18.3125 C 15.542969 19.363281 13.84375 20 12 20 C 7.929688 20 4.5625 16.941406 4.070313 13 L 11 13 L 11 11 L 4.070313 11 C 4.523438 7.390625 7.390625 4.519531 11.003906 4.070313 Z M 15.003906 3.203125 C 15.941406 3.359375 16.777344 3.707031 17.519531 4.234375 L 15.003906 6.75 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 10 2 C 5.59375 2 2 5.59375 2 10 C 2 14.40625 5.59375 18 10 18 C 12.023438 18 13.871094 17.238281 15.28125 15.988281 L 16 16.707031 L 16 18 L 20 22 L 22 20 L 18 16 L 16.707031 16 L 15.988281 15.28125 C 17.238281 13.871094 18 12.023438 18 10 C 18 5.59375 14.40625 2 10 2 Z M 10 4 C 13.324219 4 16 6.675781 16 10 C 16 13.324219 13.324219 16 10 16 C 6.675781 16 4 13.324219 4 10 C 4 6.675781 6.675781 4 10 4 Z M 7 9 C 6.449219 9 6 9.449219 6 10 C 6 10.550781 6.449219 11 7 11 C 7.550781 11 8 10.550781 8 10 C 8 9.449219 7.550781 9 7 9 Z M 10 9 C 9.449219 9 9 9.449219 9 10 C 9 10.550781 9.449219 11 10 11 C 10.550781 11 11 10.550781 11 10 C 11 9.449219 10.550781 9 10 9 Z M 13 9 C 12.449219 9 12 9.449219 12 10 C 12 10.550781 12.449219 11 13 11 C 13.550781 11 14 10.550781 14 10 C 14 9.449219 13.550781 9 13 9 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 6 2 C 4.90625 2 4 2.90625 4 4 L 4 20 C 4 21.09375 4.90625 22 6 22 L 18 22 C 19.09375 22 20 21.09375 20 20 L 20 8 L 14 2 Z M 6 4 L 13 4 L 13 9 L 18 9 L 18 20 L 6 20 Z M 8 12 L 8 14 L 16 14 L 16 12 Z M 8 16 L 8 18 L 16 18 L 16 16 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 10 2 C 8.707031 2 7.605469 2.84375 7.1875 4 L 2 4 L 2 6 L 7.1875 6 C 7.605469 7.15625 8.707031 8 10 8 C 11.644531 8 13 6.644531 13 5 C 13 3.355469 11.644531 2 10 2 Z M 10 4 C 10.5625 4 11 4.4375 11 5 C 11 5.5625 10.5625 6 10 6 C 9.4375 6 9 5.5625 9 5 C 9 4.4375 9.4375 4 10 4 Z M 15 4 L 15 6 L 22 6 L 22 4 Z M 15 9 C 13.707031 9 12.605469 9.84375 12.1875 11 L 2 11 L 2 13 L 12.1875 13 C 12.605469 14.15625 13.707031 15 15 15 C 16.644531 15 18 13.644531 18 12 C 18 10.355469 16.644531 9 15 9 Z M 15 11 C 15.5625 11 16 11.4375 16 12 C 16 12.5625 15.5625 13 15 13 C 14.4375 13 14 12.5625 14 12 C 14 11.4375 14.4375 11 15 11 Z M 20 11 L 20 13 L 22 13 L 22 11 Z M 7 16 C 5.707031 16 4.605469 16.84375 4.1875 18 L 2 18 L 2 20 L 4.1875 20 C 4.605469 21.15625 5.707031 22 7 22 C 8.644531 22 10 20.644531 10 19 C 10 17.355469 8.644531 16 7 16 Z M 7 18 C 7.5625 18 8 18.4375 8 19 C 8 19.5625 7.5625 20 7 20 C 6.4375 20 6 19.5625 6 19 C 6 18.4375 6.4375 18 7 18 Z M 12 18 L 12 20 L 22 20 L 22 18 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                              <JFXButton contentDisplay="GRAPHIC_ONLY" maxHeight="52.0" maxWidth="52.0" minHeight="52.0" minWidth="52.0" prefHeight="52.0" prefWidth="52.0" ripplerFill="#ae0b0b">
+                                 <graphic>
+                                    <SVGPath content="M 12 1 L 3 5 C 3 5 3 9 3 11 C 3 18.828125 9.4375 22.484375 12 23 C 14.5625 22.484375 21 18.828125 21 11 C 21 9 21 5 21 5 Z M 19 11 C 19 17.132813 14.214844 20.253906 12 20.9375 C 9.785156 20.253906 5 17.132813 5 11 L 5 6.300781 L 12 3.1875 L 19 6.300781 Z" />
+                                 </graphic>
+                                 <styleClass>
+                                    <String fx:value="menu-button" />
+                                    <String fx:value="menu-button-active" />
+                                 </styleClass>
+                              </JFXButton>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+         </left>
+         <bottom>
+            <AnchorPane prefHeight="60.0" prefWidth="863.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="14.0" layoutY="28.0" style="-fx-font-size: 12;" styleClass="sub-title" text="© 2022 RAMOSSOFT" />
+                  <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="791.0" layoutY="16.0" prefHeight="53.0" prefWidth="53.0" style="-fx-effect: innershadow; -fx-background-color: primary; -fx-background-radius: 90;" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="5.0">
+                     <graphic>
+                        <SVGPath content="M 11 2 L 11 22 L 13 22 L 13 2 Z" fill="WHITE" />
+                     </graphic>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="57.0" prefWidth="863.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="669.0" layoutY="5.0" prefHeight="42.0" prefWidth="180.0" spacing="7.0" styleClass="user-card" AnchorPane.rightAnchor="14.0">
+                     <children>
+                        <Circle fill="WHITE" radius="21.0" stroke="WHITE" strokeType="INSIDE" />
+                        <VBox alignment="CENTER_LEFT" prefHeight="27.0" prefWidth="101.0">
+                           <children>
+                              <Label text="ADMINISTRADOR" />
+                              <Label text="ismael.correia" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </padding>
+                  </HBox>
+                  <SVGPath content="M 3 3 C 1.894531 3 1 3.894531 1 5 L 1 17 C 1 18.105469 1.894531 19 3 19 L 8 19 L 8 21 L 13.378906 21 C 13.148438 20.597656 12.984375 20.144531 12.902344 19.660156 L 12.457031 17 L 3 17 L 3 5 L 21 5 L 21 7.101563 C 21.347656 7.035156 21.683594 7 22 7 L 23 7 L 23 5 C 23 3.894531 22.105469 3 21 3 Z M 16 6 C 16 6 16.578125 7.167969 16.855469 10.363281 C 15.671875 9.007813 14 9 14 9 C 14 9 15.558594 10.566406 15.921875 13 L 13.820313 13 L 14.875 19.328125 C 15.035156 20.285156 15.878906 21 16.847656 21 L 19.152344 21 C 20.121094 21 20.964844 20.285156 21.125 19.328125 L 22.179688 13 L 20.078125 13 C 20.441406 10.566406 22 9 22 9 C 22 9 20.507813 9.007813 19.34375 10.148438 C 18.210938 7.109375 16 6 16 6 Z M 16.179688 15 L 19.820313 15 L 19.152344 19 L 16.847656 19 Z" layoutX="32.0" layoutY="17.0" scaleX="1.5" scaleY="1.5" />
+                  <Label layoutX="88.0" layoutY="21.0" text="INÍCIO" />
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="44.0" layoutY="32.0" prefHeight="126.0" prefWidth="287.0" styleClass="card" />
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
